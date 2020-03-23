@@ -1,21 +1,15 @@
- # -*- coding: utf-8 -*-
- {'name': 'Coffee Connector',
-  'version': '1.0.0',
-  'category': 'Connector',
-  'depends': ['connector',
-              ],
-  'author': 'Myself',
-  'license': 'AGPL-3',
-  'description': """
- Coffee Connector
- ================
+ # License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl.html)
 
- Connect Odoo to my coffee machine.
 
- Features:
-
- * Poor a coffee when Odoo is busy for too long
- """,
-  'data': [],
-  'installable': True,
- }
+{
+    "name": "Atlantide Connector",
+	"description":"Atlantide Connector Descr.",
+    "version": "1.0.0",
+    "author": "Myself",
+    "website": "https://github.com/OCA/queue/queue_job",
+    "license": "LGPL-3",
+    "category": "Connector",
+    "depends": ["connector"],
+    "data": [],
+    "installable": True
+}

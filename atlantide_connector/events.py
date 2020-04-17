@@ -20,10 +20,7 @@ class AtlantideListener(Component):
         f.close()		
 
     def on_record_unlink(self, record):
-        with record.backend_id.work_on(record._name) as work:
-            external_id = work.component(usage='binder').to_external(record)
-            if external_id:
-                f = open("mylog.txt", "a")
-                f.write("Write! {0} \n".format(record))
-                f.close()		
+        f = open("mylog.txt", "a")
+        f.write("Write! {0} \n".format(record))
+        f.close()		
 

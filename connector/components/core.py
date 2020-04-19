@@ -1,7 +1,5 @@
 from odoo.addons.component.core import AbstractComponent
 
-from ..database import pg_try_advisory_lock
-
 
 class BaseConnectorComponent(AbstractComponent):
     """ Base component for the connector

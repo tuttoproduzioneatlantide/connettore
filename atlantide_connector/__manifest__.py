@@ -10,6 +10,6 @@
     "license": "LGPL-3",
     "category": "Connector",
     "depends": ["connector"],
-    "data": [],
+    "data": ['security/ir.model.access.csv'],
     "installable": True
 }

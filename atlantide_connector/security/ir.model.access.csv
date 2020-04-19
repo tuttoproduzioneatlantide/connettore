@@ -1,0 +1,2 @@
+id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
+access_x_log_changes_for_atlantide,x_log_changes_for_atlantide,model_x_log_changes_for_atlantide,,1,1,1,1

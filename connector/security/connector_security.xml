@@ -12,9 +12,6 @@
         <field name="users" eval="[(4, ref('base.user_root'))]"/>
     </record>
 
-    <record id="queue_job.group_queue_job_manager" model="res.groups">
-        <field name="implied_ids" eval="[(4, ref('group_connector_manager'))]"/>
-    </record>
 
     <record id="connector_checkpoint_multicompany_rule" model="ir.rule">
         <field name="name">Connector Checkpoint multi-company</field>

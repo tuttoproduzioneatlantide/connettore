@@ -2,6 +2,7 @@ from odoo import models,fields
 
 class LogForAtlantide(models.Model):
     _name = 'x_log_changes_for_atlantide'
+    _description = 'modello per il log delle modifiche'
     
     x_model_name = fields.Char(string="model name", index=True, size=255)
     

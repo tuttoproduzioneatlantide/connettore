@@ -5,7 +5,7 @@ from datetime import datetime
 class AtlantideListener(Component):
     _name = 'atlantide.event.listener'
     _inherit = 'base.connector.listener'
-    _apply_on = ['res.users']
+    _apply_on = ['res.partner','sale.order.line','sale.order','product.product','purchase.order.line','purchase.order','waste.rds.line','waste.rds','res.users','waste.waste']
 
     @skip_if(lambda self, record, **kwargs: self.no_connector_export(record))
     def on_record_create(self, record, fields=None):
